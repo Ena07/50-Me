@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:700');
+
+.App {
+  text-align: center;
+}
+
+/* Bar */
+.barbox{
+  background-color: rgb(235, 171, 12);
+  border-radius: 5px;
+}
+.Logo a{
+  color: blueviolet;
+  font-weight: bold;
+  font-style: italic;
+  font-variant: small-caps;
+  font-size: 30px;
+  text-decoration: none;
+}
+.link a{
+  text-decoration: none;
+  color: blueviolet;
+  
+}
+.link {
+  color: blueviolet;
+  margin-left: 30% ;
+  text-decoration: none;
+}
+.me-auto{
+  width: 60%;
+  font-weight: bold;
+}
+.mb-2{
+  width: 20%;
+  padding-right: 2%;
+}
+.link1{
+  color: white;
+  margin: 0% 2% 0% 2%;
+  border-radius: 40%;
+  background-color: blueviolet;
+}
+.link:hover{
+  color: blueviolet;
+}
+.link1:hover{
+  background-color: blueviolet;
+}
+/* HomePage */
+.SignUp-Row{
+  padding:0% 15% 0% 15%;
+}
+.div{
+  margin-bottom: 2%;
+  margin-top: 5%;
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow';
+  font-size: 25px;
+  text-align: center;
+}
+.HomeContainer{
+  background-color: blueviolet;
+  margin-bottom: 0%;
+}
+.ground{
+  width: 40%;
+  height: 20%;
+  position: relative;
+  border-radius: 10%;
+}
+.ground1{
+  width: 40%;
+  height: 20%;
+  border-radius: 10%;
+  position: relative; 
+  left: 50%;
+}
+.ground2{
+  width: 40%;
+  height: 20%;
+  border-radius: 10%;
+}
+.ground3{
+  width: 40%;
+  height: 20%;
+  border-radius: 10%;
+  left: 50%;
+  position: relative;
+}
+.PAGE2{
+  margin-top: 5%;
+  border-top-right-radius: 10% solid blueviolet;
+}
+.frame{
+  margin: 5% 0% 0% 2%;
+}
+.header{
+  font-size: 40px;
+  color: white;
+}
+
+
+
+/* HomePart */
+.head{
+  font-style: oblique;
+  color: blueviolet;
+  font-weight: bold;
+}
+.membership{
+  background-color: blueviolet;
+}
+.border{
+width: 50rem;
+height: 100rem;
+}
+
+.display{
+  height: 30vh;
+  max-width: 50vw;
+  border-radius: 15px;
+  position: relative;
+  margin-left: 50px;
+  display: flex;
+  margin-bottom: 20px ;
+  
+}
+.display1{
+  height: 40vh;
+  max-width: 35vw;
+  border-radius: 18px;
+  position: relative;
+  margin-left: 50px;
+  display: flex;
+  margin-top: 10px;
+
+ }
+ .display2{
+  text-align: center;
+ }
+ .homerow{
+  background-color: whitesmoke;
+
+ }
+ 
+
+
+
+/* HomePart2 */
+.top1{
+  color: yellow hsla(120, 100%, 50%, 0.3);
+  text-align: center;
+}
+.paragraph1{
+  color: yellow hsla(120, 100%, 50%, 0.3);
+  text-align: center;
+}
+.cards{
+  background-color:whitesmoke;
+  border: 20px;
+  /* border-bottom: solid 20px gray;
+  border-right: solid 20px gray; */
+}
+.cont3{
+  margin-top: 120px;
+}
+
+  
+/* Profile */
+.main-profile {
+  width: 20%;
+  height: 70vh;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 37%;
+  margin-top: 5%; 
+  box-shadow: 2px 1px 5px;
+  background-color: cornsilk;
+}
+
+.profile-info{
+  text-align: center;
+  color: blue hsla(120, 100%, 50%, 0.3);
+  border: solid 10%  blueviolet;
+  color: grey;
+}
+.blob {
+  position: absolute;
+  fill: #023F92;
+  width: 50vmax;
+  z-index: 0;
+  animation: move 10s ease-in-out infinite;
+  transform-origin: 50% 50%;
+}
+/* 
+@keyframes move {
+  0%   { transform: scale(1)   translate(10px, -30px); }
+  38%  { transform: scale(0.8, 1) translate(80vw, 30vh) rotate(160deg); }
+  40%  { transform: scale(0.8, 1) translate(80vw, 30vh) rotate(160deg); }
+  78%  { transform: scale(1.3) translate(0vw, 50vh) rotate(-20deg); }
+  80%  { transform: scale(1.3) translate(0vw, 50vh) rotate(-20deg); }
+  100% { transform: scale(1)   translate(10px, -30px); }
+} */
+
+.profile-pic {
+  width: 45%;
+  height: 20vh;
+  resize: inherit;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 90px;
+  border-radius: 100%;
+  
+};
+
+/* Chat */
+.F-chat{
+  border: 20px;
+  border-radius: 30px;
+ }
+ /* .backcolor{
+  border-top: solid 2px blueviolet;
+ } */
+.F-chat{
+  width: 90vw;
+  height: 10vh;
+  border: solid 5px blueviolet;
+  border-radius: 20px;}
+.chat-button{
+  background-color: blueviolet;
+}
+.chat-button:hover{
+  background-color: blueviolet;
+}
+.ChatForm{
+  position: absolute;
+  bottom: 0;
+}
+
+/* singlemessage */
+.UserName{
+  font-weight: bold;
+  font-style: initial;
+  color: green;
+}
+.chatItem{
+  font-style: italic;
+  color: black;
+}
+
+/* LogIn */
+.backgroundimg{
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.butoninput{
+  width: 200px;
+  height: 40px;
+  margin-top: 50px;
+  color: blueviolet;
+  background-color: whitesmoke;
+  font-size: 20px;
+  position: relative;
+  border-radius: 10px;
+  margin-left: 10%;
+}
+.Loghead{
+  margin-left: 36%;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  color: grey;
+}
+.Logform{
+  width: 360px;
+  height: 500px;
+  background-color: transparent;
+  border: 10px solid blueviolet;
+  border-radius: 30px;
+  padding: 60px;
+  margin-left: 36%;
+  margin-top: 3%;
+}
+.forminput{
+  width: 250px;
+  padding: 7px;
+  border: 1px solid palegoldenrod;
+  border-radius: 10px;
+  outline: none;
+  padding: 1rem;
+  margin-bottom: 1rem
+  ;
+}
+.log{
+  text-align: center;
+}
+
+/* Profile */
+.profImg{
+  border-radius: 20px;
+}
+
+/* SignUp */
+.box{
+  background-color: blueviolet;
+  padding: 0% 2% 0% 2%;
+  margin: 0% 10% 0% 0%;
+}
+.background{
+  height: 30vh;
+  width: 20%;
+  position: absolute;
+  left: 60%;
+  border-top-right-radius: 10%;
+}
+.background1{
+  height: 30vh;
+  width: 20%;
+  position: absolute;
+  right: 30%;
+  top: 55%;
+  border-top-left-radius: 10%;
+}
+.signuptext{
+  text-align: center;
+  font-size: 30px;
+  color: plum ;
+}
+.mb-3{
+  color: white;
+  font-weight: 500;
+  font-style: oblique;
+}
+.loginbox{
+  color: white;
+  background: rgb(235, 171, 12);
+}
+
+
+/* Blog Section */
+#posts{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.blog{
+  color: #fff;
+  background: blueviolet;
+  width: 350px;
+  height: 350px; 
+  padding: 30px;
+  border-radius: 16px;
+}
+button {
+  background: goldenrod;
+  color: white;
+  padding: 15px 50px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+  font-family: 'Karla';
+}
+.top{
+  text-align: center;
+  margin-top: 40px;
+  color: blueviolet;
+}
+.paragraph{
+  text-align: center;
+  color: blueviolet;
+}
+
+/* Footer */
+.foot{
+  margin-top: 20px;
+  background-color: rgb(235, 171, 12);
+  text-align: center;
+  color: blueviolet;
+  font-weight: bold;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* @media screen and (max-width: 480px) {
+  .div{
+    font-size: 10px;
+  }
+  .header{
+    font-size: 15px;
+  }
+  .mb-2{
+    display: none;
+  }
+
+  .link{
+    margin-left: 10%;
+  }
+.footer{
+  margin-bottom: 20px;
+}
+}
+
+@media screen and (max-width: 767px) {
+
+} */
+
+@media screen and (max-width: 480px) {
+  .main-profile {
+    width: 20%;
+    height: 70vh;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 37%;
+    margin-top: 5%; 
+    box-shadow: 2px 1px 5px;
+    background-color: cornsilk;
+  }
+  
+  .profile-info{
+    text-align: center;
+    color: blue hsla(120, 100%, 50%, 0.3);
+    border: solid 10%  blueviolet;
+    color: grey;
+  }
+  .blob {
+    position: absolute;
+    fill: #023F92;
+    width: 50vmax;
+    z-index: 0;
+    animation: move 10s ease-in-out infinite;
+    transform-origin: 50% 50%;
+  }
+  /* 
+  @keyframes move {
+    0%   { transform: scale(1)   translate(10px, -30px); }
+    38%  { transform: scale(0.8, 1) translate(80vw, 30vh) rotate(160deg); }
+    40%  { transform: scale(0.8, 1) translate(80vw, 30vh) rotate(160deg); }
+    78%  { transform: scale(1.3) translate(0vw, 50vh) rotate(-20deg); }
+    80%  { transform: scale(1.3) translate(0vw, 50vh) rotate(-20deg); }
+    100% { transform: scale(1)   translate(10px, -30px); }
+  } */
+  
+  .profile-pic {
+    width: 45%;
+    height: 20vh;
+    resize: inherit;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 90px;
+    border-radius: 100%;
+    
+  };
+}
+
+
